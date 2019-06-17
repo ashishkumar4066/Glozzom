@@ -13,14 +13,17 @@
 
 .img-1 {
     background: url("image1.jpg");
+    background-size: cover;
 }
 
 .img-2 {
     background: url("image2.jpg");
+    background-size: cover;
 }
 
 .img-3 {
     background: url("image3.jpg");
+    background-size: cover;
 }
 
 #heading {
@@ -47,14 +50,13 @@
 }
 
 .imagec {
-    background: url("image3.jpg");
+    height: 200px;
+    background: url("image1.jpg");
+    background-position: 0 -360px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     color: #fff;
-}
-
-.over {
-    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
 }
 
 .st {
